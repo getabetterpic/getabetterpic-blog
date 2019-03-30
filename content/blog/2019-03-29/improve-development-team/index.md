@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What Does Being a Tech Lead Mean?
+title: How Can I Improve My Development Team?
 tags:
   - leadership
   - tech
