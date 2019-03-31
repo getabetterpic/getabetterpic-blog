@@ -6,10 +6,14 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    h1: {
+      fontFamily: ["Abril Fatface", "Georgia", "serif"].join(",")
+    }
   }
 }
 
 delete Wordpress2016.googleFonts
+Wordpress2016.bodyFontFamily = ["Lato", "Arial", "sans-serif"]
 
 const typography = new Typography(Wordpress2016)
 
